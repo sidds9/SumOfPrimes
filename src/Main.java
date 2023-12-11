@@ -8,7 +8,7 @@ public class Main {
         int n = scanner.nextInt();
 
 
-
+//Test Methods
         if (n <0){
             System.out.println(SumOfPrimesWithDigit5Test.testSumOfPrimesWithDigit5_NegativeInput(n));
         }

@@ -1,5 +1,5 @@
 public class SumOfPrimesWithDigit5 {
-    // Checks
+    // Checks for prime
     public static boolean isPrime(int num){
         if (num <2){
             return false;
@@ -12,7 +12,7 @@ public class SumOfPrimesWithDigit5 {
         return true;
 
     }
-
+//Checks for digits 5
     public static boolean containsDigits(int num){
         return String.valueOf(num).contains("5");
     }
